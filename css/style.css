@@ -1,0 +1,888 @@
+
+/* #########################################################################
+
+                         GENERAL STYLING
+
+33##########################################################################*/
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(24, 22, 22, 0.014);
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none !important;
+
+    
+}
+
+h1 {
+	color: #484a46;
+	font: 700 2.5rem/3rem "Montserrat", sans-serif;
+}
+
+/* end of fade animation for image slider - magnific popup */
+
+/* #########################################################################
+
+                         NAVBAR SECTION
+
+33##########################################################################*/
+.header {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/2.jpeg') center center no-repeat;
+	background-size: cover;
+    height: 80vh;
+}
+
+.header .header-content {
+	padding-top: 8rem;
+	padding-bottom: 2.125rem;
+	text-align: center;
+}
+
+.header .text-container {
+	margin-bottom: 3rem;
+}
+
+.header h1 {
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.header .p-large {
+	margin-bottom: 2rem;
+	color: #dfe5ec;
+}
+
+.header .btn-solid-lg {
+	margin-right: 0.5rem;
+	margin-bottom: 1.25rem;
+}
+
+
+
+ .bg{ 
+    background-color: rgb(39, 38, 38) !important;
+}
+
+.btn-solid-lg {
+    color: orange;
+    border: 2px solid orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-solid-lg:hover {
+    background-color: orange;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    padding-right: 0.5rem;
+    padding-left: 1rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: #ffc107;
+    color: green;
+}
+
+.navbar-light .navbar-brand,  .navbar-nav .nav-link {
+    color: rgba(238, 229, 229, 0.9) !important;
+}
+
+.navbar-light   .navbar-nav .nav-link:hover{
+    color: rgb(248, 244, 244) !important;
+}
+
+.navbar-light {
+    color: rgba(238, 229, 229, 0.9) !important;
+}
+
+/* #########################################################################
+
+                        1ST SECTION cORE VALUES
+
+33##########################################################################*/
+
+section.head2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hr2{
+    width: 50%;
+}
+
+.head2 .welcome{
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+}
+ .head2 .core {
+    background-color: rgba(24, 22, 22, 0.014);
+
+ }
+
+ .head2  .core .core-val{
+    width: 30%;
+    float: left;
+    list-style: none;
+    margin: 1.66%;
+    color: rgb(20, 19, 19);
+ }
+
+ .fa-accusoft:before{
+     position: relative;
+     bottom: 10px;
+    content: "\f369";
+    font-size: xx-large;
+    color: rgb(96, 243, 96);
+    border: 2px solid rgb(96, 243, 96);
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+}
+
+.fa-cubes:before {
+    position: relative;
+    bottom: 10px;
+    content: "\f1b3";
+    font-size: xx-large;
+    color: #ffc107;
+    border: 2px solid #ffc107;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+.fa-cloudversify:before {
+    position: relative;
+    bottom: 10px;
+    content: "\f385";
+    font-size: xx-large;
+    color: rgb(174, 69, 235);
+    border: 2px solid rgb(174, 69, 235) ;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+
+
+}
+/* #########################################################################
+
+                         BLOG SECTON AND SIDEBAR
+
+33##########################################################################*/
+
+
+.blogs{
+     clear: both;
+     display: grid;
+     grid-template-columns: 2.5fr 1fr;
+     gap:1.2rem;
+     background:#eee;
+    
+ }
+
+ .blog{
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+ }
+
+ .img-container img{
+     width: 100%;
+     margin: 0 auto;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     object-fit: cover;
+     
+ }
+
+ .blog h2{
+     font-size: 30px;
+ }
+.blog .blog-1-text{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.time-container{
+    position: relative;
+    top: 30px;
+    width: 50%;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+}
+
+span.date{
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+span.time{
+   font-size: 14px;
+}
+
+div.read-button{
+   width: 50%;
+   margin: 30px auto;
+   text-align: center;
+}
+
+.read{
+    color: #ffc107;
+    font-size: 14px;
+    border: 2px solid #ffc107;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.read:hover{
+    background-color: #ffc107;
+    /* color: white; */
+}
+
+/* #########################################################################
+
+                    ABOUT ME SECTION
+
+33##########################################################################*/
+
+
+.blogs .sidebar .box .title{
+    margin: 10px;
+    padding:1.5rem;
+    font-size: 2rem;
+    color:#fff;
+    background:rgb(22, 21, 21);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+
+.blogs .sidebar .box .about{
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding:1rem 1rem;
+    margin: 8px;
+}
+
+.blogs .sidebar .box .about img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin:1rem 0;
+}
+
+.blogs .sidebar .box .about h3{
+    color:#ffc107;
+    font-size: 2rem;
+}
+
+.blogs .sidebar .box .about p{
+    color:#777;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding:1rem;
+}
+
+.blogs .sidebar .box .about .follow{
+    padding:1rem 0;
+}
+
+.blogs .sidebar .box .about .follow a{
+    height: 4rem;
+    line-height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background:black;
+    color:#fff;
+    font-size: 1.7rem;
+    margin:0 .1rem;
+    text-decoration: none;
+}
+
+.blogs .sidebar .box .about .follow a:hover{
+    background:#ffc107;
+    color: white;
+}
+.info .recent-post{
+    margin: 50px;
+}
+
+/* #########################################################################
+
+                            CATEGORIES SECTION
+
+33##########################################################################*/
+
+
+.blogs .sidebar .box .category{
+    padding:1rem 1.5rem;
+    background: #fff;
+}
+
+.blogs .sidebar .box .category a{
+    padding:.4rem 0;
+    font-size: 1.5rem;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogs .sidebar .box .category a span{
+    background: black;
+    color:#fff;
+    border-radius: .5rem;
+    padding:.5rem;
+}
+
+.blogs .sidebar .box .category a:hover{
+    color: #ffc107;
+}
+
+.blogs .sidebar .box .category a:hover span{
+    background-color:#ffc107;
+}
+
+/* #########################################################################
+
+                         POPULAR POST SECTION
+
+33##########################################################################*/
+
+
+.blogs .sidebar .box .p-post{
+    background: white;
+    padding:1rem 1rem;
+    margin: 10px;
+}
+
+.blogs .sidebar .box .p-post a{
+    padding:0.5rem 0;
+    display: block;
+}
+
+.blogs .sidebar .box .p-post a h3{
+    color:black;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.blogs .sidebar .box .p-post a span{
+    color:#777;
+    font-size: 1rem;
+}
+
+.blogs .sidebar .box .p-post a span i{
+    padding-right: 2rem;
+}
+
+.blogs .sidebar .box .p-post a:hover h3{
+    color: #ffc107;
+}
+
+/* #########################################################################
+
+                         CONTACT SECTION
+
+33##########################################################################*/
+
+
+form.contact-container{
+    background: white;
+    padding: 1.5rem;
+    margin: 10px;
+}
+
+form.contact-container .inputBox{
+    text-align: center;
+    padding: 1rem;
+}
+
+form.contact-container .inputBox input{
+    padding: 0.7rem ;
+    margin: 1rem;
+    border: none;
+    border-bottom: 2px solid #ffc107;
+    background: white;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+    opacity: 0.5;
+}
+form.contact-container .inputBox input:hover{
+    opacity: 1;
+    transition: 0.7;
+    border-bottom: 3px solid #ffc107;
+}
+
+form.contact-container .message-box{
+    padding: 0.4rem;
+    width: 100%;
+    text-align: center;
+    /* margin: 50px auto;   */
+} 
+
+form.contact-container .message-box textarea{
+    text-align: center;
+    padding-top: 5rem;
+    border: none;
+    box-shadow: 3px rgb(155, 60, 60);
+    /* background-color: rgb(187, 181, 181); */
+    border-radius: 7px;
+}
+
+form.contact-container .message-box textarea:hover{
+    border: 1px solid #ffc107;
+    color: #ffc107;
+    transition: 0.7s;
+    outline: 1px solid #ffc107;
+
+}
+
+form.contact-container .message-box .btn{
+    padding: 1rem;
+    text-align: center;
+    margin: 3px;
+    background-color: rgb(43, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+form.contact-container .message-box .btn:hover{
+    background: #ffc107;
+    padding: 1.3rem;
+    transition: 0.4s;
+    
+}
+
+
+
+
+/* #########################################################################
+
+                         FOOTER SECTION
+
+33##########################################################################*/
+
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+}
+
+.footer .credit{
+    text-transform: capitalize;
+    font-size: 2rem;
+    color:black;
+    padding: 1rem 0;
+}
+
+.footer .credit span{
+    color:#ffc107;
+}
+
+.footer .follow{
+    padding: 1rem 0;
+}
+
+.footer .follow a{
+    height:4.5rem;
+    line-height:4.5rem;
+    width:4.5rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    background:black;
+    color:#fff;
+    margin:0 .1rem;
+    text-align: center;
+}
+
+.footer .follow a:hover{
+    background:#ffc107;
+}
+
+
+
+
+
+/* #####################################################################
+
+               RESPONSIVE STARTS FROM HERE
+  ######################################################################*/
+
+@media only  screen and (max-width: 320px) {
+    body{
+        padding: 20px;
+        background-color: rgba(32, 31, 31, 0.014);
+    }
+
+  
+
+   .head2  .core .core-val{
+    float: none;
+    list-style: none;
+    /* margin: 1.66%; */
+    color: rgb(20, 19, 19);
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+
+ }
+
+
+   ul.core .core-val{
+    text-align: center;
+    color: rgb(20, 19, 19);
+
+ }
+   
+    
+    .blog{
+        width: 100%;
+        padding: 3px;
+
+    }
+
+     .blog h2{
+         text-align: center;
+     }
+
+     .time-container{
+         width: 50%;
+         margin: 0 auto;
+         text-align: center;
+     }
+
+     div.read-button{
+        width: 50%;
+        margin: 30px auto;
+        text-align: center;
+     }
+
+     .read{
+         color: #ffc107;
+         font-size: 14px;
+         border: 2px solid #ffc107;
+         padding: 15px;
+         border-radius: 10px;
+     }
+
+     .read:hover{
+         background-color: #ffc107;
+         color: white;
+     }
+     
+
+     span.date{
+         text-align: center;
+         font-size: 14px;
+     }
+
+     span.time{
+        font-size: 14px;
+     }
+
+     .img-container, img{
+         width: 100%;
+         height: 50vh;
+         object-fit: cover;
+     }
+
+
+    
+    
+}
+
+/* #######################################   375PX  ###################################
+#######################################################################################
+*/
+
+@media only  screen and (max-width: 375px) {
+    body{
+        padding: 18px;
+        background-color: rgba(32, 31, 31, 0.014);
+    }
+
+
+    ul.brand{
+    display: flex;
+    list-style: none;
+    position: relative;
+    /* right: %; */
+    padding: 0;
+
+    }
+
+    #brand{
+        font-size: 14px;
+    }
+
+    .link{
+        display: none ;
+    }
+
+    .h1-content{
+        top: 80%;
+        left: 50%;
+        transform: translate(-45%, -20%);
+        padding-top: 40%; 
+    }
+
+    .h1-content .head1-text{
+        font-size: 40px;
+    }
+
+    .h1-content .btn-container{
+        width: 100%;
+        position: relative;
+        margin: 20px auto;
+        left: 16%;
+    }
+
+    .h1-content a.btn1{
+        padding:  10px;
+        text-decoration: none;
+        color: aliceblue;
+        border: 2px solid white;
+    }
+
+    .head2  .core .core-val{
+        width: 80%;
+        float: none;
+        list-style: none;
+        /* margin: 1.66%; */
+        color: rgb(20, 19, 19);
+        margin-bottom: 1.5rem;
+        margin-top: 1.9rem;
+    
+     }
+
+    ul.core, li{
+        margin-bottom: 10px;
+
+    }
+    .blogs .blog-container{
+        width: 100%;
+    }
+
+     .blogs .blog{
+         padding: 20px;
+     }
+
+     .img-container, img{
+         width: 100%;
+         height: 50vh;
+         object-fit: cover;
+     }
+}
+
+/* #######################################   425PX  ###################################
+#######################################################################################
+*/
+
+
+@media only  screen and (max-width: 425px) {
+    body{
+        padding: 15px;
+        background-color: rgba(32, 31, 31, 0.014);
+    }
+
+
+    ul.brand{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 155%;
+
+    }
+
+    #brand{
+        font-size: 17px;
+    }
+
+    .link{
+        display: none ;
+    }
+
+    .h1-content{
+        top: 80%;
+        left: 50%;
+        transform: translate(-45%, -20%);
+        padding-top: 40%; 
+    }
+
+    .h1-content .head1-text{
+        font-size: 40px;
+    }
+
+    .h1-content .btn-container{
+        width: 100%;
+        position: relative;
+        margin: 24px auto;
+        left: 21%;
+    }
+
+    .h1-content a.btn1{
+        padding:  10px;
+        text-decoration: none;
+        color: aliceblue;
+        border: 2px solid white;
+    }
+
+    .head2  .core .core-val{
+        width: 90%;
+        float: none;
+        list-style: none;
+        /* margin: 1.66%; */
+        color: rgb(20, 19, 19);
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    
+     }
+
+    ul.core .core-val{
+        width: 90%;
+        text-align: center;
+        color: rgb(20, 19, 19);
+    
+     }
+
+    
+    .blogs .blog-container{
+        width: 100%;
+    }
+
+     .blogs .blog{
+         padding: 20px;
+     }
+
+     .img-container, img{
+         width: 100%;
+         height: 50vh;
+         object-fit: cover;
+     }
+}
+
+/* #######################################   768PX  ###################################
+#######################################################################################
+*/
+
+
+@media only  screen and (max-width: 768px) {
+    body{
+        padding: 15px;
+        background-color: rgba(32, 31, 31, 0.014);
+    }
+
+
+    ul.brand{
+    display: flex;
+    list-style: none;
+    position: relative;
+    right: 60%;
+    }
+
+    #brand{
+        font-size: 15px;
+    }
+
+    ul#navs{
+        display: flex;
+        list-style: none;
+        width: 60%;
+        position: relative;
+        left: 35%;
+    }
+
+    .link{
+        display: none;
+        margin: 4px;
+        padding: 2px;
+        font-family:  Helvetica, sans-serif;
+        font-size: 11px;
+        cursor: pointer;
+        color: beige;
+    }
+    
+
+    .h1-content{
+        top: 80%;
+        left: 50%;
+        transform: translate(-45%, -20%);
+        padding-top: 40%; 
+    }
+
+    .h1-content .head1-text{
+        font-size: 40px;
+    }
+
+    .h1-content .btn-container{
+        width: 100%;
+        position: relative;
+        margin: 30px auto;
+        left: 18%;
+    }
+
+    .h1-content a.btn1{
+        padding:  20px;
+        text-decoration: none;
+        color: aliceblue;
+        border: 2px solid white;
+    }
+
+    .head2  .core .core-val{
+        width: 90%;
+        float: none;
+        list-style: none;
+        /* margin: 1.66%; */
+        color: rgb(20, 19, 19);
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    
+     }
+
+    ul.core .core-val{
+        width: 100%;
+        float: none;
+        margin-bottom: 10px;
+
+    }
+    .blogs{
+        clear: both;
+        display: block;
+        width: 100%;
+    }
+
+    
+     .img-container, img{
+         width: 100%;
+         height: 50vh;
+         object-fit: cover;
+     }
+
+}
